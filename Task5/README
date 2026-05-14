@@ -1,0 +1,4 @@
+Для проверки NetworkPolicy кластер должен быть запущен с CNI, поддерживающим сетевые политики, например Calico:
+
+```bash
+minikube start --cni=calico
